@@ -1,4 +1,6 @@
-# PCF8591 LDR 수집 및 TCP 전송 프로그램
+# light-sensor-labview
+
+PCF8591 LDR 수집 및 TCP 전송 프로그램
 
 Raspberry Pi에서 `/dev/i2c-1`을 직접 사용해 PCF8591의 AIN0~AIN3 값을 읽는다.
 내장 LDR을 손으로 가리고 떼면서 가장 크게 변하는 채널을 찾는 첫 번째 하드웨어 시험용 프로그램이다.
